@@ -60,8 +60,9 @@ void List::deleteAt(int idx)
 	assert(idx >= 0 && idx <= size);
 	if (idx == 0)
 	{
-		head->next = head; 
+		Node* tep = head->next;
 		delete head;
+		head = tep;
 	}
 	else
 	{
