@@ -19,3 +19,7 @@ double Student::get_gpa()
 {
 	return gpa;
 }
+
+void Student::displayInfo()
+{
+}

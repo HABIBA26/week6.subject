@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-class Teatcher : public Person
+class Teatcher : public virtual Person
 {
 private:
 	float salary;
@@ -14,5 +14,6 @@ public:
 	void set_workHour(int w);
 	int get_workHour();
 	void printInfo();
+	void displayInfo();
 };
 

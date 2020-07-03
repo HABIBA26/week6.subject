@@ -24,3 +24,7 @@ void Teatcher::printInfo()
 {
 	cout << salary ;
 }
+
+void Teatcher::displayInfo()
+{
+}

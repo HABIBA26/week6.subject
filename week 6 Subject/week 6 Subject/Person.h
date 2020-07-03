@@ -20,6 +20,7 @@ public:
 	string get_address();
 	int get_id();
 	void printInfo();
+	virtual void displayInfo() = 0;
 	Person();
 };
 
